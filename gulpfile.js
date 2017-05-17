@@ -3,7 +3,6 @@ var gulp = require('gulp'),
     less = require('gulp-less'),
     path = require('path');
 
-
 gulp.task('watch', ['less'], function() {
  gulp.watch('less/**/*.less', ['less']);
 });
